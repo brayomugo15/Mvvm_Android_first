@@ -5,8 +5,8 @@ import android.util.Patterns;
 
 import androidx.databinding.BaseObservable;
 import androidx.databinding.Bindable;
+import androidx.databinding.library.baseAdapters.BR;
 
-import com.project.mvvmandroidfirst.BR;
 import com.project.mvvmandroidfirst.models.User;
 
 public class LoginViewModel extends BaseObservable {
@@ -43,7 +43,7 @@ public class LoginViewModel extends BaseObservable {
     }
 
     public void setUserPassword(String password){
-        user.setEmail(password);
+        user.setPassword(password);
         notifyPropertyChanged(BR.userPassword);
     }
 
