@@ -1,8 +1,10 @@
-package com.project.mvvmandroidfirst;
+package com.project.mvvmandroidfirst.views;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.project.mvvmandroidfirst.R;
 
 public class MainActivity extends AppCompatActivity {
 
